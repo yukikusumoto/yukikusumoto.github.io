@@ -1,5 +1,3 @@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
 <!DOCTYPE html>
 <html lang="ja">
   <head>
@@ -8,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>アプリケーション紹介</title>
     <meta name="keywords" content="カメラ,アプリ,紹介">
-    <meta neme="description" content="カメラ情報交流アプリケーションの紹介ページです。写真やカメラに関する情報を投稿し合うサイトです。">
+    <meta name="description" content="カメラ情報交流アプリケーションの紹介ページです。写真やカメラに関する情報を投稿し合うサイトです。">
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
@@ -28,24 +26,74 @@
       body {
         font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-sefif;
       }
-      
+      .cover{
+        width:700px;
+        max-width:100%;
+        display:block;
+        margin:0 auto;
+      }
     </style>
   </head>
   <body>
-    <h1>アプリケーション紹介</h1>
-    <img src="camera_01.jpg">
-    <h2>カメラのレビューを投稿</h2>
-    <p>
-      このアプリケーションでは、お使いになっているカメラの使用感や性能を共有し、カメラの良さを共感し合うプラットフォームです。<br />
-      自慢の写真とともに性能を語ったり、なぜその機種を選んだのか、どこを気に入っているのかをぜひ投稿してみましょう。
-    </p>
-    <h2>自己紹介</h2>
-    <p>
-      楠本 裕基。26歳社会人一年目。<br />
-      都内ベンチャー企業に勤務。<br />
-      WEBマーケティング担当として、SEO対策を主に行っています。<br />
-      自分でWEBアプリケーションを立ち上げたいという想いから、ブートキャンプに参加しています。
-    </p>
-    <a href="https://github.com/ykusumoto">ユーザーページはこちら</a>
+    <div class="container">
+      <h1>アプリケーション紹介</h1>
+      <img src="camera_01.jpg" alt="カメラ画像" class="cover">
+      <h2>カメラのレビューを投稿</h2>
+      <p>
+        このアプリケーションでは、お使いになっているカメラの使用感や性能を共有し、カメラの良さを共感し合うプラットフォームです。<br />
+        自慢の写真とともに性能を語ったり、なぜその機種を選んだのか、どこを気に入っているのかをぜひ投稿してみましょう。
+      </p>
+      <h2>自己紹介</h2>
+      <p>
+        楠本 裕基。26歳社会人一年目。<br />
+        都内ベンチャー企業に勤務。<br />
+        WEBマーケティング担当として、SEOを主に行っています。<br />
+        自分でWEBアプリケーションを立ち上げたいという想いから、ブートキャンプに参加しています。
+      </p>
+      <a href="https://github.com/yukikusumoto">ユーザーページはこちら</a>
+      <h2>作品集</h2>
+      <div class="row">
+      	<div class="col-xs-6 col-md-3">
+      		<div class="thumbnail">
+      			<img src="gazou1.jpg" alt="サンプル画像">
+      			<div class="caption">
+      				<h3>message-board</h3>
+      				<p>メッセージボードです。</p>
+      				<p><a href="gazou1.jpg" class="btn btn-default" role="button" target="_blank">ボタン</a></p>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="col-xs-6 col-md-3">
+      		<div class="thumbnail">
+      			<img src="gazou1.jpg" alt="サンプル画像">
+      			<div class="caption">
+      				<h3>twitter-clone</h3>
+      				<p>ツイッタークローンです。</p>
+      				<p><a href="gazou1.jpg" class="btn btn-default" role="button" target="_blank">ボタン</a></p>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="col-xs-6 col-md-3">
+      		<div class="thumbnail">
+      			<img src="gazou1.jpg" alt="サンプル画像">
+      			<div class="caption">
+      				<h3>monolist</h3>
+      				<p>モノリストです。</p>
+      				<p><a href="gazou1.jpg" class="btn btn-default" role="button" target="_blank">ボタン</a></p>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="col-xs-6 col-md-3">
+      		<div class="thumbnail">
+      			<img src="gazou1.jpg" alt="サンプル画像">
+      			<div class="caption">
+      				<h3>original</h3>
+      				<p>オリジナルサービスです。</p>
+      				<p><a href="gazou1.jpg" class="btn btn-default" role="button" target="_blank">ボタン</a></p>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+    </div>
   </body>
 </html>
